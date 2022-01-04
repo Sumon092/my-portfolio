@@ -1,0 +1,44 @@
+/* Css for all */
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0;
+    
+}
+h1{
+    font-size: 47px;
+}
+/* Css for Top section start here */
+.display-line{
+    display: flex;
+   
+}
+    .top-section{
+        background-image: url(images/banner.png);
+        background-repeat: no-repeat;
+    }
+.half-width{
+    width: 80%;
+    padding: 15px;
+
+}
+.half-width p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.orange-head{
+    color: orangered;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 50px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(red,orange);
+    color: wheat;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
